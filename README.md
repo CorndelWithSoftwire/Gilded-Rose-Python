@@ -10,4 +10,4 @@ To install dependencies, just run
 poetry install
 ```
 
-To run the test, run `pytest` from inside a poetry shell.
+To run the test, run `pytest` from inside a poetry shell (which you can open by running `poetry shell`).
