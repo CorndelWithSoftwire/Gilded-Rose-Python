@@ -3,11 +3,11 @@
 Edited from https://github.com/emilybache/GildedRose-Refactoring-Kata
 
 ## Setup
-Dependencies are managed via Poetry. (Instructions [here](https://python-poetry.org/docs/#installation) if you don't already have it)
+Everything in this project is part of the Python standard library, so there are no dependencies to install.
 
-To install dependencies, just run
+To run the tests, run the `golden_master_test.py` file.
 ```shell script
-poetry install
+python golden_master_test.py
 ```
 
-To run the test, run `pytest` from inside a poetry shell (which you can open by running `poetry shell`).
+This should output that it ran 1 test, and the overall result was 'OK'.
